@@ -1,0 +1,29 @@
+name: Shell Commands
+on: [Push]
+job:
+run-Shell-Command1:
+
+runs-on: unbuntu-latest
+
+steps:
+
+-name: Print a String
+
+run: |
+
+
+echo "Hey Hello this is my new Project"
+echo "This project shows the Version and npm"
+
+runs-Shell-Command1:
+
+run-on: unbuntu-latest
+
+steps:
+
+-name: Give the Version of the node and npm
+
+run: |
+
+node -v
+npm -v
